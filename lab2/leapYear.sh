@@ -7,15 +7,15 @@ then
     then
     if [ $((year % 400)) -eq 0 ]
           then
-        echo "its a leap year"
+        echo $year "is a leap year"
     else
-           echo "its not a leap year"
+           echo $year "is not a leap year"
     fi
   else
-  echo "Its a leap year"
+  echo $year "Is a leap year "
   fi
 else
- echo "its not a leap year"
+ echo $year "is not a leap year "
 
 fi
 
