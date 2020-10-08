@@ -4,10 +4,10 @@ read num
 
 if [ $num -lt 0 ]
 then
-    echo "Negative"
+    echo $num "is Negative"
 elif [ $num -gt 0 ]
 then
-    echo "Positive"
+    echo $num "is Positive"
 else
-    echo "Neither Positive Nor Negative"
+    echo $num "is Neither Positive Nor Negative"
 fi
